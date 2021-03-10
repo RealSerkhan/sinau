@@ -26,6 +26,7 @@ class RecommendedListExplore extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
+                  // First column i mean it is CustomBox
                   Container(
                     height: size.height * 0.11,
                     width: size.height * 0.11,
@@ -42,6 +43,7 @@ class RecommendedListExplore extends StatelessWidget {
                       ),
                     ),
                   ),
+                  //second column these is Informations
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
