@@ -43,6 +43,7 @@ class RecommendedListExplore extends StatelessWidget {
                     ),
                   ),
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
                         width: size.width * 0.55,
@@ -109,7 +110,6 @@ class RecommendedListExplore extends StatelessWidget {
                         ],
                       )
                     ],
-                    crossAxisAlignment: CrossAxisAlignment.start,
                   ),
                 ],
               ),
